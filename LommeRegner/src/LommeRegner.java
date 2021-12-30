@@ -6,7 +6,7 @@ public class LommeRegner {
         int action = -1;
 
         while (action == -1) {
-            System.out.println("Vil du plus(1), minus(2), gange(3), dividere(4), eller afslutte programmet (0)");
+            System.out.println("Vil du plus(1), minus(2), gange(3), dividere(4), opløft i anden(5) eller afslutte programmet (0)");
              action = scanner.nextInt();
             if (action == 1) {
                 System.out.println("Indtast tal");
@@ -26,6 +26,10 @@ public class LommeRegner {
                 System.out.println("Indtast andet tal");
                 double y = scanner.nextInt();
                 System.out.println(x * y);
+            } else if (action == 5) {
+                System.out.println("Indtast tal");
+                double x = scanner.nextInt();
+                System.out.println(x * x);
             } else if (action == 4) {
                 System.out.println("Indtast tal");
                 double x = scanner.nextInt();
