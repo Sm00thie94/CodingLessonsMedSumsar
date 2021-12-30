@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Coding Lessons med Sumsar.iml" filepath="$PROJECT_DIR$/Coding Lessons med Sumsar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LommeRegner/LommeRegner.iml" filepath="$PROJECT_DIR$/LommeRegner/LommeRegner.iml" />
+    </modules>
+  </component>
+</project>
